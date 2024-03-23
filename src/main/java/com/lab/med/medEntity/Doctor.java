@@ -1,7 +1,4 @@
 package com.lab.med.medEntity;
-
-
-
 public class Doctor {
 	private int doctorId;
     private String firstName;
@@ -46,5 +43,4 @@ public class Doctor {
 	public void setSpecialization(String specialization) {
 		this.specialization = specialization;
 	}
-
 }

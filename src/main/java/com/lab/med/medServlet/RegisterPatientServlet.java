@@ -42,7 +42,7 @@ public class RegisterPatientServlet extends HttpServlet {
         } catch (SQLException e) {
             e.printStackTrace();
             request.setAttribute("errorMessage", "Error registering patient.");
-            request.getRequestDispatcher("registration.jsp").forward(request, response);
+            request.getRequestDispatcher("registerPatient.jsp").forward(request, response);
         }
     }
 }

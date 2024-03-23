@@ -1,7 +1,5 @@
 package com.lab.med.medServlet;
 
-
-
 import java.io.IOException;
 import java.sql.SQLException;
 
